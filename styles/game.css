@@ -1,45 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
-*{
+
+* {
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color:  linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);    
+    background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
+
 /* navigation section styles */
-.navigation-container{
+.navigation-container {
     width: 100%;
     height: 130px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0), -1em 0 6em rgba(0, 0, 0, 0.074);
 }
-.game-container{
+
+.game-container {
     font-size: 2.8rem;
+    display: flex;
+    gap: 16px;
 }
-.g{
-  color: deeppink;
+
+.g {
+    color: deeppink;
 }
-.navigation-bar{
+
+.navigation-bar {
     display: flex;
     gap: 40px;
+    justify-items: center;
+    align-items: center;
 }
-.follow{
+
+.follow {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    width: 262px;
-    height: 56px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+
 }
+
 /* main section styles */
-.goat-container{
+.goat-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.play{
+
+.play {
     font-size: 3rem;
     color: #0B0223;
     font-weight: 600;
     margin-bottom: 0;
 }
-.goat{
+
+.goat {
     font-size: 95px;
     font-weight: 800;
     margin-top: 0;
@@ -48,13 +71,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.disclaimer{
+
+.disclaimer {
     color: #534C64;
-    font-size:20px;
+    font-size: 20px;
 }
-    
-  
-.goat-container .btn-disclaimer, .btn-container{
+
+
+.goat-container .btn-disclaimer,
+.btn-container {
     display: inline-flex;
     margin-right: 10px;
     font-size: 1.25rem;
@@ -64,56 +89,72 @@
     border: none;
     margin-top: 25px;
 }
-.goat-container .btn-disclaimer{
+
+.goat-container .btn-disclaimer {
     background-color: #4EC5F7;
 }
- .btn-container{
-    background-color:#F948B2;
+
+.btn-container {
+    background-color: #F948B2;
     padding: 21px 40px;
     border: none;
 }
+
 /* we are gamer part start */
-.gamer-container{
+.gamer-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: right;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-.gamer{
+
+.gamer {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 48px;
 }
-.paragraph-disclaimer{
+
+.paragraph-disclaimer {
     color: #534C64;
     font-size: 18px;
     margin-bottom: 20px;
 }
-.gamer-container .our-purpose, .unlease{
+
+.gamer-container .our-purpose,
+.unlease {
     color: #534C64;
 }
-.our-purpose{
+
+.our-purpose {
     font-size: 1.5rem;
     margin-bottom: 10px;
     margin-right: 0;
     font-weight: 500;
 }
-.unleash{
+
+.unleash {
     font-size: 2rem;
     font-weight: 700;
 }
+
 /* online games funny videos section styles */
-.online-games{
+.online-games {
     text-align: center;
 }
-.online{
+
+.online {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 5px;
 }
-.funny{
+
+.funny {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    -clip: text;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Work Sans;
@@ -122,8 +163,152 @@
     font-weight: 700;
     line-height: normal;
 }
-.pictures{
-    text-align: center;
-    gap: 30px;
+
+.pictures {
+    text-align: left;
+    display: flex;
     border-radius: 16px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.doll-picture {
+    margin-left: -130px;
+    position: absolute;
+    margin-top: 350px;
+}
+
+.paragraph {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 80px;
+}
+
+/* play instantly section */
+.title-container {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.horse-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    text-align: right;
+}
+
+.doll-text-main-container {
+    margin-top: 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.doll-text-container{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.doll-text {
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 200px;
+    border: 2px solid white;
+}
+.doll-text:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
+}
+
+/* footer section styles */
+footer {
+    background-color: #0B0223;
+    height: 636px;
+}
+
+.white {
+    color: #FFF;
+
+}
+
+.games-container {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.text-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+  
+
+}
+
+.hero-text{
+    position: absolute;
+    margin-top: -402px;
+    margin-left: 4px;
+    padding-left: 120px;
+    border-radius: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.47);
+    width: 214px;
+    height: 392px;
+    color: #F948B2;
+}
+.hero-img{
+    z-index: -1;
+}
+.text {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.g, .white{
+    font-size: 45px;
+}
+.g{
+    margin-left: 20px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+.under-icon{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 60px;
+}
+.last{
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 50px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
 }
