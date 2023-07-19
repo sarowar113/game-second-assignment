@@ -102,3 +102,28 @@
     font-size: 2rem;
     font-weight: 700;
 }
+/* online games funny videos section styles */
+.online-games{
+    text-align: center;
+}
+.online{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.pictures{
+    text-align: center;
+    gap: 30px;
+    border-radius: 16px;
+}
