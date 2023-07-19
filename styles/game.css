@@ -253,7 +253,7 @@ footer {
     padding-bottom: 50px;
 }
 
-.text-container {
+.footer-text-container {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -311,4 +311,75 @@ footer {
     font-size: 1rem;
     display: flex;
     justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .navigation-bar{
+        flex-direction: column;
+    }
+    .navigation-container{
+        flex-direction: column;
+    }
+    .game-container{
+        margin-top: 100px;
+    }
+    .goat-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 300px;
+    }
+    .gamer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .game-container-img{
+        width: 90%;
+    }
+    .pictures{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+    }
+    .horse-container{
+        flex-direction: column;
+    }
+    .horse-picture{
+        width: 300px;
+    }
+    .doll-picture{
+        width: 150px;
+        margin-left: -40px;
+        margin-top: 200px;
+    }
+    .doll-text-container{
+        flex: none;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .doll-text {
+        padding: 10px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 10px;
+        justify-content: center;
+        width: 80%;
+        border: 2px solid white;
+    }
+    .rounded-img{
+        width: 30px;
+    }
+    .footer-text-container{
+        flex: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .under-icon{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
